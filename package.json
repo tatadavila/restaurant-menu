@@ -20,7 +20,8 @@
   "description": "Restaurant menu website",
   "version": "1.0.0",
   "engines": {
-    "node": "14.x"
+    "node": "15.x",
+    "npm": "7.x"
   },
   "main": "index.js",
   "dependencies": {
@@ -324,7 +325,7 @@
     "dev": "webpack serve --mode development",
     "serve": "node server.js",
     "build": "webpack --mode production",
-    "heroku-postbuild": "webpack -p"
+    "heroku-postbuild": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",

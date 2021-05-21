@@ -110,6 +110,7 @@
     "evp_bytestokey": "^1.0.3",
     "expand-brackets": "^2.1.4",
     "expand-tilde": "^2.0.2",
+    "express": "^4.17.1",
     "extend-shallow": "^3.0.2",
     "extglob": "^2.0.4",
     "fast-deep-equal": "^3.1.3",

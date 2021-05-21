@@ -3,9 +3,13 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
+  entry: [
+    './src/index.js'
+  ],
   // Where files should be sent once they are bundled
   output: {
     path: path.join(__dirname, "/dist"),
+    publicPath: '/',
     filename: "index.bundle.js",
   },
   // webpack 5 comes with devServer which loads in development mode

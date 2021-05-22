@@ -8,22 +8,17 @@ body {
 footer {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .menu {
   background: linear-gradient(to bottom, #199ed9 0%,#fefefe 36%,#fefefe 63%,#179ed8 100%);
 }
 
-.left-column,
-.right-column {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  font-style: normal;
-  padding-bottom: 5px;
-  padding-top: 50px;
+.page {
   width: 50%;
 }
+
 .left-column {
   padding-left: 25px;
   padding-right: 25px;
@@ -76,6 +71,7 @@ footer {
 }
 
 footer {
+  margin-top: 2px;
   padding-bottom: 25px;
   width: 100%;
 }
@@ -99,6 +95,10 @@ footer {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
+    #app {
+      width: 100%;
+    }
+
   .menu, footer {
     align-items: center;
     flex-direction: column;
@@ -107,9 +107,10 @@ footer {
   .menu {background: none;}
 
   .page {
+    background: linear-gradient(to bottom, #179ed8 0%,#fefefe 36%,#fefefe 63%,#179ed8 100%);
     display: flex;
     justify-content: center;
-    background: linear-gradient(to bottom, #199ed9 0%,#fefefe 36%,#fefefe 63%,#179ed8 100%);
+    width: 100%;
   }
 
   .left-column, .right-column {
@@ -118,10 +119,12 @@ footer {
   }
 
   footer {
+    margin: 0;
     width: 100%;
   }
 
   .footer-text {
+    background: #179ed8;
     width: 90%;
   }
 

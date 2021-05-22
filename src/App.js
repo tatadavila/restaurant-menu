@@ -5,87 +5,96 @@ function App() {
   return (
     <>
       <div className="menu">
-        <div className="left-column">
-          <div className="plate-type">
-            <span className="title">Appetizers</span>
-            <div className="plates">
-              <div className="item">
-                <span className="plate">Crispy Chicken Wings</span> | $14.00
-                <br />
-                Plain / Cattleman BBQ / Buffalo Hot
-              </div>
-              <div className="item">
-                <span className="plate">Tostones</span> | $13.00 <br />3
-                Tostones Layered with Guacamole / Pico De Gallo / Cilantro/
-                Queso Fresco / Jalapeno / Lime
-              </div>
-              <div className="item">
-                <span className="plate">Smoked Fish Dip</span> | $13.00 <br />
-                Smoked White Fish / Pickled Jalapeno / Lemon Wedge / Flatbread
-                Crackers
-              </div>
-              <div className="item">
-                <span className="plate">Chicken Fingers</span> | $14.00 <br />
-                Sothern Style Chicken Fingers / Crispy Seasoned Fries
-              </div>
-              <div className="item">
-                <span className="plate">Pretzel Bites and Jalapeno Queso</span>{" "}
-                | $13.00 <br />
-                Warm Salted Pretzels / Jalapeno Cheddar Cheese Queso
-              </div>
-            </div>
-          </div>
-
-          <div className="plate-type">
-            <span className="title">Salads</span>
-            <div className="plates">
-              <div className="item">
-                <span className="plate">The Wedge</span> | $13.00 <br />
-                Baby Iceberg / Crispy Bacon / Gorgonzola Cheese / Red Onion /
-                Avocado / Tomato / Buttermilk Blue Cheese Dressing
-              </div>
-              <div className="item">
-                <span className="plate">Southwest Chicken Caesar Salad</span> |
-                $16.00 <br />
-                Grilled Or Crispy Chicken / Pinto Beans / Corn/ Grated Manchego
-                Cheese / Tomato / Avocado / Cilantro / Crispy Tortilla /
-                Chipotle Dressing
-              </div>
-              <div className="item">
-                <span className="plate">Caprese Salad</span> | $14.00 <br />
-                Arugula / Vine Ripe Tomato/Buffalo Mozzarella / Torn Basil /
-                Balsamic Vinaigrette
-              </div>
-              <div className="item">
-                <span className="plate">Greek Salad with Grilled Salmon</span> |
-                $19.00 <br />
-                Tomato/cucumbers / Bell Peppers / Feta Cheese / Garbanzo Beans /
-                Kalamata Olives/ Red Wine Vinaigrette
-              </div>
-              <div className="item">
-                <span className="plate">Pretzel Bites and Jalapeno Queso</span>{" "}
-                | $13.00 <br />
-                Warm Salted Pretzels / Jalapeno Cheddar Cheese Queso
+        <div className="page">
+          <div className="left-column">
+            <div className="plate-type">
+              <span className="title">Appetizers</span>
+              <div className="plates">
+                <div className="item">
+                  <span className="plate">Crispy Chicken Wings</span> | $14.00
+                  <br />
+                  Plain / Cattleman BBQ / Buffalo Hot
+                </div>
+                <div className="item">
+                  <span className="plate">Tostones</span> | $13.00 <br />3
+                  Tostones Layered with Guacamole / Pico De Gallo / Cilantro/
+                  Queso Fresco / Jalapeno / Lime
+                </div>
+                <div className="item">
+                  <span className="plate">Smoked Fish Dip</span> | $13.00 <br />
+                  Smoked White Fish / Pickled Jalapeno / Lemon Wedge / Flatbread
+                  Crackers
+                </div>
+                <div className="item">
+                  <span className="plate">Chicken Fingers</span> | $14.00 <br />
+                  Sothern Style Chicken Fingers / Crispy Seasoned Fries
+                </div>
+                <div className="item">
+                  <span className="plate">
+                    Pretzel Bites and Jalapeno Queso
+                  </span>{" "}
+                  | $13.00 <br />
+                  Warm Salted Pretzels / Jalapeno Cheddar Cheese Queso
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="plate-type">
-            <span className="title">Sweet Tooth</span>
-            <div className="plates no-grap">
-              <div className="item">
-                <span className="plate">Key Lime Pie</span> | $6.00
+            <div className="plate-type">
+              <span className="title">Salads</span>
+              <div className="plates">
+                <div className="item">
+                  <span className="plate">The Wedge</span> | $13.00 <br />
+                  Baby Iceberg / Crispy Bacon / Gorgonzola Cheese / Red Onion /
+                  Avocado / Tomato / Buttermilk Blue Cheese Dressing
+                </div>
+                <div className="item">
+                  <span className="plate">Southwest Chicken Caesar Salad</span>{" "}
+                  | $16.00 <br />
+                  Grilled Or Crispy Chicken / Pinto Beans / Corn/ Grated
+                  Manchego Cheese / Tomato / Avocado / Cilantro / Crispy
+                  Tortilla / Chipotle Dressing
+                </div>
+                <div className="item">
+                  <span className="plate">Caprese Salad</span> | $14.00 <br />
+                  Arugula / Vine Ripe Tomato/Buffalo Mozzarella / Torn Basil /
+                  Balsamic Vinaigrette
+                </div>
+                <div className="item">
+                  <span className="plate">Greek Salad with Grilled Salmon</span>{" "}
+                  | $19.00 <br />
+                  Tomato/cucumbers / Bell Peppers / Feta Cheese / Garbanzo Beans
+                  / Kalamata Olives/ Red Wine Vinaigrette
+                </div>
+                <div className="item">
+                  <span className="plate">
+                    Pretzel Bites and Jalapeno Queso
+                  </span>{" "}
+                  | $13.00 <br />
+                  Warm Salted Pretzels / Jalapeno Cheddar Cheese Queso
+                </div>
               </div>
-              <div className="item">
-                <span className="plate">Crème Brûlée Cheesecake</span> | $7.00
-              </div>
-              <div className="item">
-                <span className="plate">Flourless Chocolate Cake</span> | $6.00
+            </div>
+
+            <div className="plate-type">
+              <span className="title">Sweet Tooth</span>
+              <div className="plates no-grap">
+                <div className="item">
+                  <span className="plate">Key Lime Pie</span> | $6.00
+                </div>
+                <div className="item">
+                  <span className="plate">Crème Brûlée Cheesecake</span> | $7.00
+                </div>
+                <div className="item">
+                  <span className="plate">Flourless Chocolate Cake</span> |
+                  $6.00
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="right-column">
+
+        <div className="page">
+          <div className="right-column">
           <div className="plate-type">
             <span className="title">Entrée Menu Category</span>
             <div className="plates">
@@ -169,6 +178,7 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
       <footer>

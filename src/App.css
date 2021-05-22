@@ -82,7 +82,7 @@ footer {
 
 .footer-text {
   border-top: 3px dashed #000000;
-  padding: 10px 0 0 25px;
+  padding: 10px 25px 0 25px;
   width: 60%;
 }
 
@@ -104,8 +104,15 @@ footer {
     flex-direction: column;
   }
 
-  .left-column, .right-column {
+  .menu {background: none;}
+
+  .page {
+    display: flex;
     justify-content: center;
+    background: linear-gradient(to bottom, #199ed9 0%,#fefefe 36%,#fefefe 63%,#179ed8 100%);
+  }
+
+  .left-column, .right-column {
     padding: 0;
     width: 90%;
   }

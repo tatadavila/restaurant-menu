@@ -5,7 +5,13 @@ body {
 }
 
 .container {
-  background: linear-gradient(to bottom, #179ed8 0%,#fefefe 36%,#fefefe 63%,#179ed8 100%);
+  background: linear-gradient(
+    to bottom,
+    #179ed8 0%,
+    #fefefe 36%,
+    #fefefe 63%,
+    #179ed8 100%
+  );
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,13 +24,21 @@ body {
 }
 
 .menu,
+.beer,
 footer {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-.page {
+.beer {
+  display: flex;
+  justify-content: flex-start;
+  padding: 25px;
+}
+
+.page,
+.col {
   width: 50%;
 }
 
@@ -38,7 +52,7 @@ footer {
   padding-right: 25px;
 }
 
-.plate-type {
+.type {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -60,7 +74,7 @@ footer {
   font-weight: 700;
 }
 
-.plates {
+.items-list {
   display: grid;
   grid-template-columns: 100%;
   grid-row-gap: 30px;
@@ -71,12 +85,70 @@ footer {
   grid-row-gap: 0 !important;
 }
 
-.item {
-  color: black;
+.food-item, .drink-number {
+  color: #000000;
 }
 
 .plate {
   font-weight: 700;
+}
+
+.drinks-item {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.drink {
+  font-size: 19px;
+  font-weight: 900;
+}
+
+.drink,
+.frozen-drinks,
+.sub-drink,
+.red-note,
+.underlined-subtitle {
+  color: #bf0426;
+}
+
+
+.frozen-drinks {
+  font-size: 24px;
+}
+
+.sub-drink {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.drink-ingredents {
+  color: #384001;
+  line-height: 1;
+}
+
+.liquor {
+  color: #023059;
+}
+
+.br {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.red-note {
+  
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.underlined-subtitle {
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: underline;
 }
 
 footer {
@@ -97,43 +169,47 @@ footer {
   margin: 0 auto;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .container {
+    background: #179ed8;
+  }
 
-  @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-  
-    .container {
-      background: #179ed8;
-    }
+  .logo {
+    width: 70%;
+  }
 
-    .logo {
-      width: 70%;
-    }
-
-  .menu, footer {
+  .menu,
+  footer {
     align-items: center;
     flex-direction: column;
     width: 100%;
   }
 
-  .menu {background: none;}
+  .menu {
+    background: none;
+  }
 
   .page {
-    background: linear-gradient(to bottom, #179ed8 0%,#fefefe 36%,#fefefe 63%,#179ed8 100%);
+    background: linear-gradient(
+      to bottom,
+      #179ed8 0%,
+      #fefefe 36%,
+      #fefefe 63%,
+      #179ed8 100%
+    );
     display: flex;
     justify-content: center;
     width: 100%;
   }
 
-  .left-column, .right-column {
+  .left-column,
+  .right-column {
     padding: 0;
     width: 90%;
   }
 
   footer {
-    background: #FEFEFE;
+    background: #fefefe;
     margin: 0;
     width: 100%;
   }
@@ -145,5 +221,4 @@ footer {
   .footer-img {
     width: 100% !important;
   }
-
 }

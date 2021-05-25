@@ -1,12 +1,15 @@
 import React from "react";
-import { render } from "react-dom";
+import DrinksMenu from "./components/DrinksMenu";
 import FoodMenu from './components/FoodMenu'
+import Footer from "./components/Footer";
 
 function App() {
 
   return (
     <>
       <FoodMenu/>
+      <DrinksMenu/>
+      <Footer/>
     </>
   );
 }

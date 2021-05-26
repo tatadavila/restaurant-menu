@@ -144,22 +144,118 @@ const DrinksMenu = () => {
                 </div>
               </div>
 
-              {/* <div className="type">
-                <span className="title">BEER</span>
-                <div className="beer">
-                  
+              <div className="type">
+                <span className="beer-title">BEER</span>
+                <div className="beer-2columns">
                   <div className="col">
                     <div className="left-column">
-                      <span className="underlined-subtitle">Domestic</span>
+                      <div className="type beer-type">
+                        <span className="underlined-subtitle">Domestic</span>
+                        <div className="beer-item">
+                          <span className="beer-name">Budweiser </span>5
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Bud light </span>5
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Miller Lite </span>5
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Coors Lite </span>5
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Landshark </span>5
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Yuengling </span>5
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Mich Ultra </span>5
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Goose Ipa </span>6
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Blue Moon </span>6
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Sams Adams </span>6
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Havana Larger </span>6
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="col">
                     <div className="right-column">
-                      <span className="underlined-subtitle">Import</span>
+                      <div className="type beer-type">
+                        <span className="underlined-subtitle">Import</span>
+                        <div className="beer-item">
+                          <span className="beer-name">Heineken </span>6
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Corona </span>6
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Corona Light </span>6
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Stella </span>6
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Big Wave </span>6
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Modelo </span>6
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Guinness </span>6
+                        </div>
+                      </div>
+
+                      <div className="type extra">
+                        <span className="underlined-subtitle">Seltezer</span>
+                        <div className="beer-item">
+                          <span className="beer-name">Truly </span>5
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">High Noon </span>5
+                        </div>
+                        <div className="beer-item">
+                          <span className="beer-name">Bud Light </span>5
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div> */}
+                <div className="type">
+                  <div className="beer-item bucket">
+                    <span className="beer-name">Domestic Beer Bucket (6) </span>{" "}
+                    25
+                  </div>
+                  <div className="beer-item bucket">
+                    <span className="beer-name">Imported Beer Bucket (6) </span>{" "}
+                    25
+                  </div>
+                </div>
+              </div>
+
+              <div className="type">
+                <div className="items-list">
+                  <span className="beer-title">YACHT SHOTS $3</span>
+                </div>
+              </div>
+
+              <div className="type">
+                <div className="drinks-item">
+                  <span className="drink-ingredents">
+                    *** Our drinks are made using quality alcohol, fresh fruit
+                    &amp; fresh herbs. Our fruit is squeezed by hand to ensure
+                    the best drink posible ***
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

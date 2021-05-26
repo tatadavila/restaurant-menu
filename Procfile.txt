@@ -1,1 +1,0 @@
-web: gunicorn <lava-food-drinks-menu>.wsgi --log-file

@@ -5,6 +5,7 @@ body {
 }
 
 .container {
+  align-items: center;
   background: linear-gradient(
     to bottom,
     #179ed8 0%,
@@ -24,11 +25,11 @@ body {
 }
 
 .menu,
-.beer,
+.beer-2columns,
 footer {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 95%;
 }
 
 .beer {
@@ -43,13 +44,12 @@ footer {
 }
 
 .left-column {
-  padding-left: 25px;
   padding-right: 25px;
 }
 
 .right-column {
+  margin: 0 !important;
   padding-left: 25px;
-  padding-right: 25px;
 }
 
 .type {
@@ -85,11 +85,16 @@ footer {
   grid-row-gap: 0 !important;
 }
 
-.food-item, .drink-number {
+.food-item,
+.drink-number {
   color: #000000;
 }
 
-.plate {
+.plate,
+.drinks-item,
+.beer-item,
+.sub-drink,
+.underlined-subtitle {
   font-weight: 700;
 }
 
@@ -97,13 +102,24 @@ footer {
   display: flex;
   flex-direction: column;
   font-style: normal;
-  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
 }
 
+.drinks-item {
+  font-size: 17px;
+}
+
+.sub-drink {
+  font-size: 18px;
+}
+
+.beer-name {
+  color: #0b5b72;
+}
+
 .drink {
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 900;
 }
 
@@ -111,18 +127,14 @@ footer {
 .frozen-drinks,
 .sub-drink,
 .red-note,
-.underlined-subtitle {
+.underlined-subtitle,
+.beer-item {
   color: #bf0426;
 }
 
-
 .frozen-drinks {
   font-size: 24px;
-}
-
-.sub-drink {
-  font-size: 17px;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .drink-ingredents {
@@ -132,6 +144,7 @@ footer {
 
 .liquor {
   color: #023059;
+  font-weight: 800;
 }
 
 .br {
@@ -140,15 +153,47 @@ footer {
 }
 
 .red-note {
-  
   font-weight: 600;
   margin-top: 2px;
 }
 
+.beer-type {
+  margin: 20px 0 0 0 !important;
+}
+
+.extra {
+  margin: 0;
+}
+
+.beer-title {
+  color: #083761;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 30px;
+  text-align: center;
+}
+
 .underlined-subtitle {
-  font-size: 18px;
-  font-weight: 800;
+  font-size: 23px;
   text-decoration: underline;
+}
+
+.beer-2columns {
+  width: 100% !important;
+}
+
+.beer-item {
+  font-size: 19px;
+  line-height: 19px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.bucket {
+  font-size: 21px !important;
+  margin-top: 15px;
+  line-height: 10px;
+  text-align: center;
 }
 
 footer {
@@ -206,6 +251,22 @@ footer {
   .right-column {
     padding: 0;
     width: 90%;
+  }
+
+  .beer-title {
+    font-size: 26px;
+  }
+
+  .beer-type {
+    margin: 2.5px 0 0 0 !important;
+  }
+
+  .underlined-subtitle {
+    font-size: 19px;
+  }
+
+  .beer-item {
+    font-size: 16px;
   }
 
   footer {

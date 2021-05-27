@@ -8,10 +8,7 @@ const DrinksMenu = () => {
           <div className="page">
             <div className="left-column">
               <div className="type">
-                
-                <div className="drink-fancy-title cocktails">
-                  Specialty Cocktails
-                </div>
+              <span className="title">Specialty Cocktails</span>
                 <div className="items-list">
                   <div className="drinks-item">
                     <span className="drink">
@@ -120,9 +117,7 @@ const DrinksMenu = () => {
           <div className="page">
             <div className="right-column">
               <div className="type">
-                <div className="drink-fancy-title frozen">
-                  Frozen Drinks
-                </div>
+                <span className="title">Frozen Drinks</span>
                 <div className="items-list">
                   <div className="drinks-item">
                     <span className="frozen-drinks">Pina Colada 13</span>
@@ -150,7 +145,7 @@ const DrinksMenu = () => {
               </div>
 
               <div className="type">
-                <span className="beer-title">BEER</span>
+                <span className="title">Beer</span>
                 <div className="beer-2columns">
                   <div className="col">
                     <div className="left-column">

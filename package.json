@@ -322,7 +322,7 @@
     "yargs-parser": "^13.1.2"
   },
   "scripts": {
-    "dev": "webpack serve --mode development",
+    "dev": "webpack serve --mode development --host 192.168.1.12 --public 192.168.1.12:8080",
     "serve": "node server.js",
     "build": "webpack --mode production",
     "heroku-postbuild": "webpack --config webpack.config.js"

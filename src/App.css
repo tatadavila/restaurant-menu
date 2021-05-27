@@ -98,6 +98,36 @@ footer {
   font-weight: 700;
 }
 
+.drink-fancy-title {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.cocktails {
+  background: linear-gradient(to bottom, #F6E7E7, #E7BDBC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #C0504D;
+}
+
+.frozen {
+  color: #009DD9;
+  text-shadow: -3px 4px #8097A6;
+  -webkit-text-stroke: 3px #fff;
+}
+
+.shots {
+  color: #BF0404;
+  text-shadow: -3px 4px #486273;
+  -webkit-text-stroke: 3px #fff;
+}
+
 .drinks-item {
   display: flex;
   flex-direction: column;
@@ -139,7 +169,7 @@ footer {
 
 .drink-ingredents {
   color: #384001;
-  line-height: 1;
+  line-height: 17px;
 }
 
 .liquor {
@@ -214,6 +244,7 @@ footer {
   margin: 0 auto;
 }
 
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .container {
     background: #179ed8;
@@ -244,7 +275,7 @@ footer {
     );
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: auto;
   }
 
   .left-column,
@@ -269,6 +300,23 @@ footer {
     font-size: 16px;
   }
 
+  .drink-fancy-title {
+    font-size: 30px;
+    -webkit-text-stroke: 1.5px #C0504D;
+  }
+
+  .frozen, .shots {
+    -webkit-text-stroke: 1px #fff;
+  }
+
+  .frozen {
+    text-shadow: -2px 3px #8097a6;
+  }
+
+  .shots {
+    text-shadow: -2px 3px #486273;
+  }
+
   footer {
     background: #fefefe;
     margin: 0;
@@ -281,5 +329,41 @@ footer {
 
   .footer-img {
     width: 100% !important;
+  }
+}
+
+@media only screen and (min-device-width: 412px) and (max-device-width: 880px) and (orientation: landscape) {
+  
+  .beer-item {
+    font-size: 13px;
+  }
+
+  .bucket {
+    font-size: 16px !important;
+  }
+
+  .drink-ingredents {
+    font-size: 14px !important;
+  }
+
+  .drink {
+    font-size: 17px;
+  }
+
+  .drink-fancy-title {
+    font-size: 44px;
+    -webkit-text-stroke: 1.5px #C0504D;
+  }
+
+  .frozen, .shots {
+    -webkit-text-stroke: 1px #fff;
+  }
+
+  .frozen {
+    text-shadow: -2px 3px #8097a6;
+  }
+
+  .shots {
+    text-shadow: -2px 3px #486273;
   }
 }
